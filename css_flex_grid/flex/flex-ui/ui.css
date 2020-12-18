@@ -97,3 +97,24 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* modal */
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0, 0.3);
+}
+
+.dialog {
+  width: 50vw;
+  background: white;
+  border-radius: 1em;
+  padding: 2em;
+}

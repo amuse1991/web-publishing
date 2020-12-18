@@ -86,3 +86,14 @@ body {
   /* flex: 0 0 auto */
   flex-shrink: 0;
 }
+
+/* friend list */
+.friend-item {
+  align-items: center;
+}
+
+.user-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
